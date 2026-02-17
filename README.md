@@ -1,6 +1,6 @@
 # FoxLocale
 ## 功能簡介
-1.用法與 TaiwanifyEveryItem 相差無異，提供了更多功能的 API。
+1.用法與 TaiwanifyEveryItem 相差無異，提供了更多功能的 API。\n
 2.自動搜尋玩家半徑10區塊內的「乾草堆」「莓果」「狐狸實體」
 
 ## 用法
