@@ -1,5 +1,7 @@
 # FoxLocale
-用法與 TaiwanifyEveryItem 相差無異，提供了更多功能的 API。
+## 功能簡介
+1.用法與 TaiwanifyEveryItem 相差無異，提供了更多功能的 API。
+2.自動搜尋玩家半徑10區塊內的「乾草堆」「莓果」「狐狸實體」
 
 ## 用法
 `%locale_物品名稱%` 會將物品名稱轉為玩家設置的語言的對應名稱，如 ENDER_PERAL 轉換為 `終界珍珠`。
