@@ -81,9 +81,10 @@ public class AssetsFetcher {
         connection.setRequestMethod("GET");
         connection.setDoInput(true);
         connection.setConnectTimeout(10_000);
-        connection.setReadTimeout(10_000);
+        connection.setReadTimeout(60_000);
 
         Path outputFile = Paths.get(targetDir, "data.json");
+        Files.createDirectories(outputFile.getParent());
 
         try (
                 InputStream rawInput = connection.getInputStream();
